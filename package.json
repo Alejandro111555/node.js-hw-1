@@ -1,0 +1,24 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "start node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "start:dev": "npx nodemon server"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/Alejandro111555/node.js-hw-1"
+  },
+  "author": "Alexander Myrskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uniqid": "^5.4.0"
+  }
+}
